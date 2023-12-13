@@ -1,0 +1,68 @@
+body {
+    background-color: #e1f1ff;
+}
+
+.navbar {
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-col {
+    background-color: #c9e6ff;
+}
+
+.navbar-a {
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-a:hover {
+    color: #416aa3;
+}
+
+.input {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card-login {
+    width: 500px;
+    height: 450px;
+    background-color: #c9e6ff;
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card-signup {
+    width: 550px;
+    height: 700px;
+    background-color: #c9e6ff;
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.custom-rounded {
+    border-radius: 30px;
+    border-color: #c9e6ff;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.chat-box {
+    overflow: scroll;
+    height: 500px;
+    width: 60%;
+}
+
+.chat-box::-webkit-scrollbar {
+    display: none;
+}
+
+.friend-box {
+    overflow: scroll;
+    height: 500px;
+    width: 20%;
+}
+
+.friend-box::-webkit-scrollbar {
+    display: none;
+}
