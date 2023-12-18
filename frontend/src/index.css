@@ -1,0 +1,76 @@
+:root {
+    --primary-col: #e1f1ff;
+    --secondary-col: #c9e6ff;
+    --text-col: #c9e6ff;
+}
+
+body {
+    background-color: var(--primary-col);
+    color: var(--text-col);
+}
+
+.navbar {
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-col {
+    background-color: var(--secondary-col);
+}
+
+.navbar-a {
+    color: var(--text-col);
+    transition: 0.3s ease-in-out;
+}
+
+.navbar-a:hover {
+    color: #416aa3;
+}
+
+.input {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.card-login {
+    width: 500px;
+    height: 450px;
+    background-color: var(--secondary-col);
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.card-signup {
+    width: 550px;
+    height: 700px;
+    background-color: var(--secondary-col);
+    box-shadow: 0 2px 12px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#chat-box {
+    overflow-y: scroll;
+    height: 500px;
+    width: 60%;
+    border-right: 1px solid var(--text-col);
+    border-left: 1px solid var(--text-col);
+    border-top: 1px solid var(--text-col);
+    border-bottom: 1px solid var(--text-col);
+}
+
+#friend-box {
+    overflow-y: scroll;
+    height: 500px;
+    width: 20%;
+    border-right: 1px solid var(--text-col);
+    border-left: 1px solid var(--text-col);
+    border-top: 1px solid var(--text-col);
+    border-bottom: 1px solid var(--text-col);
+}
+
+.message-recieved {
+    margin-left: 400px;
+}
